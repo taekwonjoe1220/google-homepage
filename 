@@ -1,0 +1,23 @@
+[33mcommit 995d851f098724f9b76ee061e6276ee95b412346[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Joe Forster <jforster.advanced@gmail.com>
+Date:   Tue Jun 15 10:42:29 2021 -0600
+
+    Added top row and working on spacing
+
+[33mcommit 94353aee24f4bf0a4c52b23182de6eb7aa2c71b5[m
+Author: Joe Forster <jforster.advanced@gmail.com>
+Date:   Sat Jun 12 20:55:20 2021 -0600
+
+    added Google image to img folder in project
+
+[33mcommit e8f74a21d1b39ac70a888e68b2e37b5fb46ee21c[m
+Author: Joe Forster <jforster.advanced@gmail.com>
+Date:   Sat Jun 12 20:49:53 2021 -0600
+
+    Updated README, added index.html & styles.css files and linked styles.css
+
+[33mcommit c262118d71d02716241938aa733ce9ea99551932[m
+Author: taekwonjoe1220 <75289380+taekwonjoe1220@users.noreply.github.com>
+Date:   Sat Jun 12 20:30:40 2021 -0600
+
+    Initial commit
