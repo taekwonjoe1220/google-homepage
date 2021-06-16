@@ -19,6 +19,6 @@ Project Outline / Tracking Progress
 3. Use Inspect Element to grab font-family, font colors, and background color
 4. Work Top Down on adding elements
    a. About, Store, Gmail, Images, etc. Line (Header) <!-- Done -->
-   b. Google Image
-   c. Search bar & buttons
+   b. Google Image <!-- Done -->
+   c. Search bar & buttons <!-- Done -->
    d. Footer
