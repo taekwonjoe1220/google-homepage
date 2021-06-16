@@ -94,3 +94,53 @@ a:hover {
   box-shadow: 0 1px 2px 0 rgba(66, 133, 244, 0.3),
     0 1px 3px 1px rgba(66, 133, 244, 0.15);
 }
+
+.img-container {
+  height: 290px;
+  min-height: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 290px;
+  flex-shrink: 0;
+}
+
+.img-container img {
+  margin-top: auto;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  padding: 6px;
+  margin-top: 20px;
+}
+.searchbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 582px;
+  height: 44px;
+  border: 1px rgb(223, 225, 229) solid;
+  border-radius: 25px;
+}
+
+.searchbar svg {
+  width: 24px;
+  height: 24px;
+  margin: 0 15px;
+}
+
+#search-bar {
+  width: 490px;
+  height: 34px;
+  font-size: 16px;
+  margin: 0;
+  border: none;
+  color: rgba(0, 0, 0, 0.87);
+  margin: 0;
+}
+
+#search-bar:focus-visible {
+  outline: none;
+}

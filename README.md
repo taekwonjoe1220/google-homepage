@@ -18,7 +18,7 @@ Project Outline / Tracking Progress
 2. Reset base styling (padding, margin, box-sizing) <!-- Done -->
 3. Use Inspect Element to grab font-family, font colors, and background color
 4. Work Top Down on adding elements
-   a. About, Store, Gmail, Images, etc. Line (Header)
+   a. About, Store, Gmail, Images, etc. Line (Header) <!-- Done -->
    b. Google Image
    c. Search bar & buttons
    d. Footer
