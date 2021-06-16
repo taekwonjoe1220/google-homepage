@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+/* General Styles */
 body {
   font-family: Arial, sans-serif;
   background: #fff;
@@ -19,15 +20,15 @@ a {
   color: #222;
 }
 
+a:hover {
+  text-decoration: underline;
+}
 .container {
   display: flex;
   flex-direction: column;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
+/* Header positioning */
 .header {
   display: flex;
   justify-content: space-between;
@@ -35,6 +36,8 @@ a:hover {
   padding: 6px;
   height: 60px;
 }
+
+/* Couldn't think of a more creative way to name these but left & right */
 .header-left {
   display: inherit;
   align-items: center;
@@ -49,6 +52,7 @@ a:hover {
   margin: 0 5px;
   padding: 5px;
 }
+
 .header-right a {
   opacity: 0.87;
   font-size: 13px;
@@ -62,14 +66,14 @@ a:hover {
   align-items: center;
   justify-content: center;
 }
-
-.waffle-container {
-  padding: 6px;
-}
+/* mmm Waffles */
 .waffle {
   height: 24px;
   width: 24px;
   color: #222;
+}
+.waffle-container {
+  padding: 6px;
 }
 .waffle-container:hover {
   cursor: pointer;
@@ -95,6 +99,7 @@ a:hover {
     0 1px 3px 1px rgba(66, 133, 244, 0.15);
 }
 
+/* Google Image div styles */
 .img-container {
   height: 290px;
   min-height: 92px;
@@ -109,9 +114,11 @@ a:hover {
   margin-top: auto;
 }
 
+/* Search Bar Styles */
 .search-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   padding: 6px;
   margin-top: 20px;
 }
@@ -143,4 +150,33 @@ a:hover {
 
 #search-bar:focus-visible {
   outline: none;
+}
+
+/* Search Buttons (under search bar) */
+.search-buttons {
+  margin-top: 25px;
+  display: block;
+}
+
+.search-buttons .srch-btn {
+  display: inline-block;
+  text-align: center;
+  padding: 0 16px;
+  margin: 11px 4px;
+  height: 36px;
+  font-size: 14px;
+  font-family: "Roboto", arial, sans-serif;
+  display: inline-block;
+  line-height: 27px;
+  border: none;
+  background-color: #f8f9fa;
+  color: #3c4043;
+  border-radius: 4px;
+}
+
+.search-buttons .srch-btn:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  border: 1px solid #dadce0;
+  box-sizing: border-box;
+  margin: 11px 3px;
 }
