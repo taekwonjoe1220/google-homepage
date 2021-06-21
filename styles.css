@@ -138,6 +138,12 @@ a:hover {
   margin: 0 15px;
 }
 
+.srch-icon {
+  width: 20px;
+  margin: 0 15px;
+  filter: grayscale(50%);
+}
+
 #search-bar {
   width: 490px;
   height: 34px;
@@ -179,4 +185,5 @@ a:hover {
   border: 1px solid #dadce0;
   box-sizing: border-box;
   margin: 11px 3px;
+  color: rgba(0, 0, 0, 0.87);
 }
