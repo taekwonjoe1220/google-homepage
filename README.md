@@ -21,4 +21,17 @@ Project Outline / Tracking Progress
    a. About, Store, Gmail, Images, etc. Line (Header) <!-- Done -->
    b. Google Image <!-- Done -->
    c. Search bar & buttons <!-- Done -->
-   d. Footer
+   d. Footer <!-- Done -->
+
+What went well:
+
+1. Revisiting HTML structure
+2. Centering using Flex
+3. Overall look and final product (static)
+4. Getting a lot fast in terminal to open project, git flow is clicking
+
+Things to do better next time:
+
+1. Read the entire directions (spent too much time inspecting web page and copying styles vs. trying on my own)
+2. Add media queries to give responsiveness
+3. Find a better way to push footer to bottom than position: absolute <!-- Use flexbox and align to bottom? Test later -->

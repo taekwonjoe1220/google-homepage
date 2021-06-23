@@ -26,6 +26,8 @@ a:hover {
 .container {
   display: flex;
   flex-direction: column;
+  position: relative;
+  height: 100vh;
 }
 
 /* Header positioning */
@@ -101,7 +103,7 @@ a:hover {
 
 /* Google Image div styles */
 .img-container {
-  height: 290px;
+  height: 100%;
   min-height: 92px;
   display: flex;
   flex-direction: column;
@@ -130,6 +132,11 @@ a:hover {
   height: 44px;
   border: 1px rgb(223, 225, 229) solid;
   border-radius: 25px;
+  z-index: 2;
+}
+
+.searchbar:hover {
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
 }
 
 .searchbar svg {
@@ -138,10 +145,10 @@ a:hover {
   margin: 0 15px;
 }
 
-.srch-icon {
-  width: 20px;
+i {
+  font-size: 14px;
   margin: 0 15px;
-  filter: grayscale(50%);
+  color: rgb(116, 116, 116);
 }
 
 #search-bar {
@@ -186,4 +193,21 @@ a:hover {
   box-sizing: border-box;
   margin: 11px 3px;
   color: rgba(0, 0, 0, 0.87);
+}
+
+/* Footer section */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f4f4f4;
+  padding: 16px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+}
+
+footer a {
+  margin: 0 16px;
+  color: #555;
 }
